@@ -1,0 +1,83 @@
+/* Set up the title */
+#title {
+  font-size: 400%;
+  width: 60vmax;
+  margin:0  auto;
+  padding-top: 50px;
+  text-align: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+/* Set up the center alignment */
+.center {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+/* Set up the image size and center alignment */
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 40px auto;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+/* Set up media queries for responsive design */
+@media only screen and (min-width: 480px) {
+  #title {
+    font-size: 300%;
+    width: 80vmax;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  #title {
+    font-size: 350%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  #title {
+    font-size: 400%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .center {
+    padding: 0 100px;
+  }
+}
+
+@media (orientation: landscape) {
+  #image {
+    margin: 20px auto;
+  }
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Body */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
